@@ -4,6 +4,11 @@
 
 h1{
   margin-left: 11.25vw;
+  margin-bottom:1.5vw;
+}
+
+h2{
+  margin-top: 0;
 }
 
 .tabHolder{
