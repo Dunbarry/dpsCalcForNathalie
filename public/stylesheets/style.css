@@ -1,0 +1,51 @@
+.mainContain{
+  width: 100vw;
+}
+
+h1{
+  margin-left: 11.25vw;
+}
+
+.tabHolder{
+  display: flex;
+  flex-flow: row;
+}
+
+.builderContain{
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column;
+  height:auto;
+  width: 20vw;
+  border: .25vw solid blue;
+  border-radius: .5em;
+  padding: .5vw;
+  margin-right: .5vw;
+}
+
+.consumerContain{
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column;
+  height:auto;
+  width: 20vw;
+  border: .25vw solid blue;
+  border-radius: .5em;
+  padding: .5vw;
+}
+
+input{
+  margin-bottom: .5vw;
+  float:right;
+  width:3.5vw;
+}
+
+.top{
+  margin-bottom: 1.5vw;
+}
+
+.inputs{
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column;
+}
