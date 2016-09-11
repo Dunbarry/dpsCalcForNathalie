@@ -3,6 +3,7 @@
   border: .25vw solid grey;
   padding:1vw;
   margin-left: 25vw;
+  font-size: 1.5vw;
 }
 
 .resultBox > span{
@@ -23,7 +24,7 @@ input{
 }
 
 h1{
-  margin-left: 11.25vw;
+  margin-left: 8vw;
   margin-bottom:1.5vw;
   margin-top: 0vw;
 }
@@ -50,6 +51,7 @@ button{
 .tabHolder{
   display: flex;
   flex-flow: row;
+  font-size: 1.25vw;
 }
 
 .builderContain{
@@ -73,6 +75,10 @@ button{
   border: .25vw solid blue;
   border-radius: .5em;
   padding: .5vw;
+}
+
+.consumerContain > h2{
+  margin-left: 6.5vw;
 }
 
 .resultsContain{
