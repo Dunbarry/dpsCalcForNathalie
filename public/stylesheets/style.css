@@ -1,14 +1,50 @@
 .mainContain{
-  width: 100vw;
+  width: 42vw;
+  border: .25vw solid grey;
+  padding:1vw;
+  margin-left: 25vw;
+}
+
+.resultBox > span{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width:3.5vw;
+  height: 1.5vw;
+  border: .1vw solid lightgrey;
+  margin-bottom: 1vw;
+  font-size: 1.5vw;
+}
+
+input{
+  margin-bottom: .5vw;
+  float:right;
+  width:3.5vw;
 }
 
 h1{
   margin-left: 11.25vw;
   margin-bottom:1.5vw;
+  margin-top: 0vw;
 }
 
 h2{
   margin-top: 0;
+}
+
+h4{
+  display: inline;
+  margin: 0;
+}
+
+button{
+  height:2vw;
+  width:5vw;
+  border-radius: 1em;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  margin-left: 18.5vw;
+  font-size: .9vw;
 }
 
 .tabHolder{
@@ -39,10 +75,16 @@ h2{
   padding: .5vw;
 }
 
-input{
-  margin-bottom: .5vw;
-  float:right;
-  width:3.5vw;
+.resultsContain{
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column;
+  height:auto;
+  width: 40.5vw;
+  border: .25vw solid blue;
+  border-radius: .5em;
+  padding: .5vw;
+
 }
 
 .top{
@@ -53,4 +95,9 @@ input{
   display: flex;
   justify-content: space-around;
   flex-flow: column;
+}
+
+.resultBox{
+  display: flex;
+  justify-content: space-between;
 }

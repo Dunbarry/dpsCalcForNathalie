@@ -14,13 +14,13 @@
       </div>
       <div class="inputs">
         <span>Percent Energy Gained:
-          <input type="number" min="0" step=".5"></input>
+          <input type="number" min="0" step=".5" id="buildEng"></input>
         </span>
         <span>Damage Dealt:
-          <input type="number" min="0" step=".5"></input>
+          <input type="number" min="0" step=".5" id="buildDmg"></input>
         </span>
         <span>Duration in Seconds:
-          <input type="number" min="0" step=".5"></input>
+          <input type="number" min="0" step=".5" id="buildDur"></input>
         </span>
       </div>
     </div>
@@ -37,15 +37,47 @@
       </div>
       <div class="inputs">
         <span>Percent Energy Cost:
-          <input type="number" min="0" step=".5"></input>
+          <input type="number" min="0" step=".5" id="conEng"></input>
         </span>
         <span>Damage Dealt:
-          <input type="number" min="0" step=".5"></input>
+          <input type="number" min="0" step=".5" id="conDmg"></input>
         </span>
         <span>Duration in Seconds:
-          <input type="number" min="0" step=".5"></input>
+          <input type="number" min="0" step=".5" id="conDur"></input>
         </span>
       </div>
     </div>
-  </div>
+    </div>
+    <button class="submit" id="submit">Calculate</button>
+    <div class="resultsContain">
+      <div class="resultBox">
+        <h2>Builder</h2>
+        <h2>Consumer</h2>
+      </div>
+      <div class="resultBox">
+        <span class="bDPS"></span>
+        <h4>Damage Per Second</h4>
+        <span id="cDPS"></span>
+      </div>
+      <div class="resultBox">
+        <span id="bEPS"></span>
+        <h4>Energy Per Second</h4>
+        <span id="cEPS"></span>
+      </div>
+      <div class="resultBox">
+        <span> => </span>
+        <h4>Damage Per Energy Unit</h4>
+        <span id="cDPE"></span>
+      </div>
+      <!-- Rotational --------------------------------------------------------->
+      <!-- <h2>
+      <div class="resultBox">
+        <span>Average Builder Use</span>
+        <span>Average Builder Use</span>
+      </div>
+      <div class="resultBox">
+      </div>
+      <div class="resultBox">
+      </div> -->
+    </div>
 </div>
