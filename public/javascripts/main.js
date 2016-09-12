@@ -44,7 +44,7 @@ $('button').click(function(){
   console.log($('#buildSTAB').val())
   // vanilla DPS
   $('#bDPS').text((buildDmg/($('#buildDur').val()-0)).toFixed(1));
-  $('#cDPS').text((($('#conDmg').val()-0)/($('#conDur').val()-0)).toFixed(1));
+  $('#cDPS').text((conDmg/($('#conDur').val()-0)).toFixed(1));
   // vanilla EPS
   $('#bEPS').text((($('#buildEng').val()-0)/($('#buildDur').val()-0)).toFixed(1));
   $('#cEPS').text((($('#conEng').val()-0)/($('#conDur').val()-0)).toFixed(1));
